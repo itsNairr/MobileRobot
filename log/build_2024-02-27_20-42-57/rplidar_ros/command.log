@@ -1,0 +1,2 @@
+Invoking command in '/home/group13pi/203/build/rplidar_ros': /usr/bin/cmake /home/group13pi/203/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/group13pi/203/install/rplidar_ros
+Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '1': /usr/bin/cmake /home/group13pi/203/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/group13pi/203/install/rplidar_ros

@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.002297] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003297] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.098832] (-) TimerEvent: {}
+[0.201353] (-) TimerEvent: {}
+[0.304248] (-) TimerEvent: {}
+[0.406099] (-) TimerEvent: {}
+[0.427411] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.432487] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/group13pi/203/src/rplidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/group13pi/203/install/rplidar_ros'], 'cwd': '/home/group13pi/203/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group13pi'), ('SSH_CLIENT', '192.168.50.74 57906 22'), ('SSH_AGENT_PID', '2848'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/group13pi'), ('OLDPWD', '/home/group13pi/203/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0570c95a-3d8c-449b-bab0-a7ea181747d7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group13pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/group13pi/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cf25c16268.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtxPPSa/agent.2847'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/group13pi/203/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.74 57906 192.168.50.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.495996] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.506348] (-) TimerEvent: {}
+[0.607395] (-) TimerEvent: {}
+[0.708395] (-) TimerEvent: {}
+[0.810039] (-) TimerEvent: {}
+[0.911077] (-) TimerEvent: {}
+[1.013005] (-) TimerEvent: {}
+[1.114231] (-) TimerEvent: {}
+[1.215732] (-) TimerEvent: {}
+[1.291027] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.315951] (-) TimerEvent: {}
+[1.339404] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.416154] (-) TimerEvent: {}
+[1.517034] (-) TimerEvent: {}
+[1.618771] (-) TimerEvent: {}
+[1.719638] (-) TimerEvent: {}
+[1.820743] (-) TimerEvent: {}
+[1.910433] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.920903] (-) TimerEvent: {}
+[1.925000] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.955830] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.013519] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.021091] (-) TimerEvent: {}
+[2.093350] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.121287] (-) TimerEvent: {}
+[2.222600] (-) TimerEvent: {}
+[2.323558] (-) TimerEvent: {}
+[2.369147] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.376175] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.423759] (-) TimerEvent: {}
+[2.524672] (-) TimerEvent: {}
+[2.625492] (-) TimerEvent: {}
+[2.726284] (-) TimerEvent: {}
+[2.827144] (-) TimerEvent: {}
+[2.927938] (-) TimerEvent: {}
+[3.028778] (-) TimerEvent: {}
+[3.129567] (-) TimerEvent: {}
+[3.230384] (-) TimerEvent: {}
+[3.331927] (-) TimerEvent: {}
+[3.427927] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.432198] (-) TimerEvent: {}
+[3.533213] (-) TimerEvent: {}
+[3.634122] (-) TimerEvent: {}
+[3.735234] (-) TimerEvent: {}
+[3.836296] (-) TimerEvent: {}
+[3.938084] (-) TimerEvent: {}
+[4.039074] (-) TimerEvent: {}
+[4.140154] (-) TimerEvent: {}
+[4.241168] (-) TimerEvent: {}
+[4.342257] (-) TimerEvent: {}
+[4.443204] (-) TimerEvent: {}
+[4.544108] (-) TimerEvent: {}
+[4.645583] (-) TimerEvent: {}
+[4.746967] (-) TimerEvent: {}
+[4.848862] (-) TimerEvent: {}
+[4.949718] (-) TimerEvent: {}
+[5.029460] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.049928] (-) TimerEvent: {}
+[5.135252] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[5.147232] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/group13pi/203/build/rplidar_ros\n'}
+[5.150350] (-) TimerEvent: {}
+[5.185444] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.187903] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[5.190795] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/group13pi/203/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/group13pi/203/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group13pi'), ('SSH_CLIENT', '192.168.50.74 57906 22'), ('SSH_AGENT_PID', '2848'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/group13pi'), ('OLDPWD', '/home/group13pi/203/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0570c95a-3d8c-449b-bab0-a7ea181747d7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group13pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/group13pi/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cf25c16268.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtxPPSa/agent.2847'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/group13pi/203/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.74 57906 192.168.50.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.250851] (-) TimerEvent: {}
+[5.351903] (-) TimerEvent: {}
+[5.387352] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[5.452156] (-) TimerEvent: {}
+[5.529152] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[5.552370] (-) TimerEvent: {}
+[5.575004] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[5.652644] (-) TimerEvent: {}
+[5.670118] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[5.713397] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.752912] (-) TimerEvent: {}
+[5.854501] (-) TimerEvent: {}
+[5.929343] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[5.954729] (-) TimerEvent: {}
+[5.968199] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/group13pi/203/build/rplidar_ros'], 'cwd': '/home/group13pi/203/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group13pi'), ('SSH_CLIENT', '192.168.50.74 57906 22'), ('SSH_AGENT_PID', '2848'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/group13pi'), ('OLDPWD', '/home/group13pi/203/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0570c95a-3d8c-449b-bab0-a7ea181747d7.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group13pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/group13pi/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cf25c16268.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtxPPSa/agent.2847'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/group13pi/203/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.74 57906 192.168.50.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.005771] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.010078] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.014252] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.018443] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[6.020617] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[6.022877] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[6.025682] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[6.028472] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[6.031114] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[6.033620] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[6.035873] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[6.038244] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[6.041252] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[6.043644] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[6.047534] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[6.049955] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/visibility.h\n'}
+[6.053447] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.054930] (-) TimerEvent: {}
+[6.056835] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[6.065318] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[6.066064] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[6.071970] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[6.073583] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[6.074407] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[6.075238] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[6.075975] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[6.078035] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[6.078923] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[6.079656] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[6.112186] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[6.113542] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[6.114755] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.116070] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.117411] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[6.118739] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[6.120149] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[6.129805] (rplidar_ros) CommandEnded: {'returncode': 0}
+[6.155232] (-) TimerEvent: {}
+[6.257250] (-) TimerEvent: {}
+[6.359005] (-) TimerEvent: {}
+[6.460807] (-) TimerEvent: {}
+[6.565159] (-) TimerEvent: {}
+[6.666258] (-) TimerEvent: {}
+[6.767181] (-) TimerEvent: {}
+[6.868040] (-) TimerEvent: {}
+[6.969311] (-) TimerEvent: {}
+[7.070472] (-) TimerEvent: {}
+[7.171890] (-) TimerEvent: {}
+[7.273194] (-) TimerEvent: {}
+[7.374349] (-) TimerEvent: {}
+[7.476522] (-) TimerEvent: {}
+[7.579780] (-) TimerEvent: {}
+[7.650568] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[7.654770] (-) EventReactorShutdown: {}

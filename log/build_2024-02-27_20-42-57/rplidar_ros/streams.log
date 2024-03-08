@@ -1,0 +1,33 @@
+[0.131s] Invoking command in '/home/group13pi/203/build/rplidar_ros': /usr/bin/cmake /home/group13pi/203/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/group13pi/203/install/rplidar_ros
+[1.292s] -- The C compiler identification is GNU 11.4.0
+[2.046s] -- The CXX compiler identification is GNU 11.4.0
+[2.095s] -- Detecting C compiler ABI info
+[2.450s] -- Detecting C compiler ABI info - done
+[2.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.479s] -- Detecting C compile features
+[2.482s] -- Detecting C compile features - done
+[2.499s] -- Detecting CXX compiler ABI info
+[2.846s] -- Detecting CXX compiler ABI info - done
+[2.874s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.875s] -- Detecting CXX compile features
+[2.877s] -- Detecting CXX compile features - done
+[3.039s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[3.040s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[3.041s]   project has asked CMake to find a package configuration file provided by
+[3.041s]   "ament_cmake_auto", but CMake did not find one.
+[3.042s] 
+[3.043s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[3.046s]   with any of the following names:
+[3.047s] 
+[3.047s]     ament_cmake_autoConfig.cmake
+[3.048s]     ament_cmake_auto-config.cmake
+[3.048s] 
+[3.049s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[3.050s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[3.052s]   files.  If "ament_cmake_auto" provides a separate development package or
+[3.053s]   SDK, be sure it has been installed.
+[3.054s] 
+[3.055s] [0m
+[3.056s] -- Configuring incomplete, errors occurred!
+[3.058s] See also "/home/group13pi/203/build/rplidar_ros/CMakeFiles/CMakeOutput.log".
+[3.061s] Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '1': /usr/bin/cmake /home/group13pi/203/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/group13pi/203/install/rplidar_ros

@@ -1,0 +1,43 @@
+[0.261s] Invoking command in '/home/group13pi/203/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/group13pi/203/build/rplidar_ros -- -j4 -l4
+[0.433s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[0.550s] [ 77%] Built target rplidar_composition_node
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[0.685s] [100%] Built target rplidar_composition
+[0.724s] Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/group13pi/203/build/rplidar_ros -- -j4 -l4
+[1.003s] Invoking command in '/home/group13pi/203/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/group13pi/203/build/rplidar_ros
+[1.032s] -- Install configuration: ""
+[1.034s] -- Execute custom install script
+[1.036s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.038s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[1.039s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[1.040s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[1.041s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[1.042s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[1.043s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[1.044s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[1.045s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[1.046s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[1.048s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[1.050s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/librplidar_composition_node.so
+[1.052s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/rplidar_node.hpp
+[1.053s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/visibility.h
+[1.054s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.056s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.057s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.058s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.059s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.061s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.062s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.063s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.064s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.065s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.066s] -- Symlinking: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.100s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.101s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[1.103s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.105s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.106s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.108s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.109s] -- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.118s] Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/group13pi/203/build/rplidar_ros
