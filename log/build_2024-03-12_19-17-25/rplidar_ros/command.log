@@ -1,0 +1,4 @@
+Invoking command in '/home/group13pi/203/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group13pi/203/install/thermal_sensor_publisher:/opt/ros/humble /usr/bin/cmake --build /home/group13pi/203/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group13pi/203/install/thermal_sensor_publisher:/opt/ros/humble /usr/bin/cmake --build /home/group13pi/203/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/group13pi/203/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group13pi/203/install/thermal_sensor_publisher:/opt/ros/humble /usr/bin/cmake --install /home/group13pi/203/build/rplidar_ros
+Invoked command in '/home/group13pi/203/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/group13pi/203/install/thermal_sensor_publisher:/opt/ros/humble /usr/bin/cmake --install /home/group13pi/203/build/rplidar_ros

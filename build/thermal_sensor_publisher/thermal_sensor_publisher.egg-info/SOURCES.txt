@@ -13,3 +13,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 thermal_sensor_publisher/__init__.py
+thermal_sensor_publisher/sensor_publisher.py

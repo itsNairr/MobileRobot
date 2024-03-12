@@ -1,0 +1,66 @@
+[14.272s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/group13pi/203']
+[14.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/group13pi/203'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb8221f00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffb82062c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffb82062c0>>)
+[15.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[15.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[15.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[15.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[15.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[15.015s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/group13pi/203'
+[15.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['ignore', 'ignore_ament_install']
+[15.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'ignore'
+[15.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'ignore_ament_install'
+[15.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['colcon_pkg']
+[15.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'colcon_pkg'
+[15.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['colcon_meta']
+[15.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'colcon_meta'
+[15.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['ros']
+[15.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'ros'
+[15.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['cmake', 'python']
+[15.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'cmake'
+[15.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'python'
+[15.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extensions ['python_setup_py']
+[15.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203) by extension 'python_setup_py'
+[15.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/build) by extensions ['ignore', 'ignore_ament_install']
+[15.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/build) by extension 'ignore'
+[15.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/build) ignored
+[15.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/install) by extensions ['ignore', 'ignore_ament_install']
+[15.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/install) by extension 'ignore'
+[15.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/install) ignored
+[15.137s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/log) by extensions ['ignore', 'ignore_ament_install']
+[15.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/log) by extension 'ignore'
+[15.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/log) ignored
+[15.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['ignore', 'ignore_ament_install']
+[15.143s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'ignore'
+[15.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'ignore_ament_install'
+[15.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['colcon_pkg']
+[15.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'colcon_pkg'
+[15.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['colcon_meta']
+[15.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'colcon_meta'
+[15.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['ros']
+[15.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'ros'
+[15.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['cmake', 'python']
+[15.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'cmake'
+[15.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'python'
+[15.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extensions ['python_setup_py']
+[15.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src) by extension 'python_setup_py'
+[15.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[15.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extension 'ignore'
+[15.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extension 'ignore_ament_install'
+[15.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extensions ['colcon_pkg']
+[15.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extension 'colcon_pkg'
+[15.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extensions ['colcon_meta']
+[15.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extension 'colcon_meta'
+[15.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extensions ['ros']
+[15.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/rplidar_ros2) by extension 'ros'
+[15.198s] DEBUG:colcon.colcon_core.package_identification:Package '/home/group13pi/203/src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[15.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extensions ['ignore', 'ignore_ament_install']
+[15.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extension 'ignore'
+[15.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extension 'ignore_ament_install'
+[15.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extensions ['colcon_pkg']
+[15.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extension 'colcon_pkg'
+[15.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extensions ['colcon_meta']
+[15.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extension 'colcon_meta'
+[15.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extensions ['ros']
+[15.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/group13pi/203/src/thermal_sensor_publisher) by extension 'ros'
+[15.215s] DEBUG:colcon.colcon_core.package_identification:Package '/home/group13pi/203/src/thermal_sensor_publisher' with type 'ros.ament_python' and name 'thermal_sensor_publisher'
+[15.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
