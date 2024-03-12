@@ -1,0 +1,21 @@
+[8.247s] Invoking command in '/home/group13pi/203/src/thermal_sensor_publisher': PYTHONPATH=/home/group13pi/203/build/thermal_sensor_publisher/prefix_override:/home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/thermal_sensor_publisher build --build-base /home/group13pi/203/build/thermal_sensor_publisher/build install --record /home/group13pi/203/build/thermal_sensor_publisher/install.log --single-version-externally-managed
+[10.757s] running egg_info
+[10.761s] writing ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/PKG-INFO
+[10.764s] writing dependency_links to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/dependency_links.txt
+[10.768s] writing entry points to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/entry_points.txt
+[10.770s] writing requirements to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/requires.txt
+[10.772s] writing top-level names to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/top_level.txt
+[10.787s] reading manifest file '../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/SOURCES.txt'
+[10.793s] writing manifest file '../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/SOURCES.txt'
+[10.796s] running build
+[10.797s] running build_py
+[10.798s] running install
+[10.800s] running install_lib
+[10.807s] running install_data
+[10.810s] running install_egg_info
+[10.819s] removing '/home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[10.821s] Copying ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info to /home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher-0.0.0-py3.10.egg-info
+[10.833s] running install_scripts
+[10.937s] Installing sensor_publisher script to /home/group13pi/203/install/thermal_sensor_publisher/lib/thermal_sensor_publisher
+[10.939s] writing list of installed files to '/home/group13pi/203/build/thermal_sensor_publisher/install.log'
+[11.108s] Invoked command in '/home/group13pi/203/src/thermal_sensor_publisher' returned '0': PYTHONPATH=/home/group13pi/203/build/thermal_sensor_publisher/prefix_override:/home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/thermal_sensor_publisher build --build-base /home/group13pi/203/build/thermal_sensor_publisher/build install --record /home/group13pi/203/build/thermal_sensor_publisher/install.log --single-version-externally-managed

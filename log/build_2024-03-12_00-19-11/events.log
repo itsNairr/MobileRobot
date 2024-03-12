@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.002008] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002645] (thermal_sensor_publisher) JobQueued: {'identifier': 'thermal_sensor_publisher', 'dependencies': OrderedDict()}
+[0.003128] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.099527] (-) TimerEvent: {}
+[0.121951] (thermal_sensor_publisher) JobStarted: {'identifier': 'thermal_sensor_publisher'}
+[0.200170] (-) TimerEvent: {}
+[0.247463] (thermal_sensor_publisher) JobEnded: {'identifier': 'thermal_sensor_publisher', 'rc': 0}
+[0.252072] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[0.264274] (-) EventReactorShutdown: {}

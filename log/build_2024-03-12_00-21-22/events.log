@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.001908] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002564] (thermal_sensor_publisher) JobQueued: {'identifier': 'thermal_sensor_publisher', 'dependencies': OrderedDict()}
+[0.002952] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.099233] (-) TimerEvent: {}
+[0.199983] (-) TimerEvent: {}
+[0.301431] (-) TimerEvent: {}
+[0.346214] (thermal_sensor_publisher) JobStarted: {'identifier': 'thermal_sensor_publisher'}
+[0.401584] (-) TimerEvent: {}
+[0.502791] (-) TimerEvent: {}
+[0.603678] (-) TimerEvent: {}
+[0.705439] (-) TimerEvent: {}
+[0.776440] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.789115] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.792311] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/group13pi/203/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/group13pi/203/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group13pi'), ('SSH_CLIENT', '192.168.50.67 54281 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/group13pi/203/install/rplidar_ros/lib'), ('BROWSER', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/group13pi'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7cad9e01-4d2c-4673-9a53-4ba348118906.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/group13pi/203/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group13pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d573b3d2d4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/group13pi/203/install/rplidar_ros'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/group13pi/203/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.67 54281 192.168.50.213 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/group13pi/203/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.805746] (-) TimerEvent: {}
+[0.907083] (-) TimerEvent: {}
+[1.008523] (-) TimerEvent: {}
+[1.110214] (-) TimerEvent: {}
+[1.211214] (-) TimerEvent: {}
+[1.312276] (-) TimerEvent: {}
+[1.385222] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[1.412428] (-) TimerEvent: {}
+[1.514302] (-) TimerEvent: {}
+[1.515634] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[1.614469] (-) TimerEvent: {}
+[1.715255] (-) TimerEvent: {}
+[1.816054] (-) TimerEvent: {}
+[1.916836] (-) TimerEvent: {}
+[2.017702] (-) TimerEvent: {}
+[2.118561] (-) TimerEvent: {}
+[2.219632] (-) TimerEvent: {}
+[2.320900] (-) TimerEvent: {}
+[2.422167] (-) TimerEvent: {}
+[2.522950] (-) TimerEvent: {}
+[2.617146] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.623172] (-) TimerEvent: {}
+[2.725029] (-) TimerEvent: {}
+[2.827292] (-) TimerEvent: {}
+[2.856024] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[2.893487] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/group13pi/203/build/rplidar_ros'], 'cwd': '/home/group13pi/203/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'group13pi'), ('SSH_CLIENT', '192.168.50.67 54281 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/group13pi/203/install/rplidar_ros/lib'), ('BROWSER', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/group13pi'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7cad9e01-4d2c-4673-9a53-4ba348118906.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/group13pi/203/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'group13pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d573b3d2d4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/group13pi/203/install/rplidar_ros'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/group13pi/203/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.67 54281 192.168.50.213 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/group13pi/203/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[2.927490] (-) TimerEvent: {}
+[2.931539] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.938547] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.942569] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.947492] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[2.948360] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[2.958854] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[2.960492] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[2.963023] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[2.963607] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[2.964097] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[2.964580] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[2.965117] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[2.965566] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[2.972056] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[2.972569] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[2.975337] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/include/visibility.h\n'}
+[2.977285] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.978255] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[2.979880] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[2.980384] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[2.980906] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[2.984503] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[2.984962] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[2.987302] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[2.987821] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[2.988370] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[2.988850] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[2.989409] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[3.018685] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[3.020112] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[3.021459] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.022638] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.023679] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[3.024488] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[3.026252] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/group13pi/203/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[3.027659] (-) TimerEvent: {}
+[3.032943] (rplidar_ros) CommandEnded: {'returncode': 0}
+[3.127871] (-) TimerEvent: {}
+[3.230461] (-) TimerEvent: {}
+[3.332514] (-) TimerEvent: {}
+[3.435202] (-) TimerEvent: {}
+[3.536691] (-) TimerEvent: {}
+[3.638029] (-) TimerEvent: {}
+[3.738950] (-) TimerEvent: {}
+[3.840482] (-) TimerEvent: {}
+[3.941702] (-) TimerEvent: {}
+[4.043728] (-) TimerEvent: {}
+[4.145257] (-) TimerEvent: {}
+[4.246874] (-) TimerEvent: {}
+[4.346552] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[4.349165] (-) TimerEvent: {}
+[4.450433] (-) TimerEvent: {}
+[4.551306] (-) TimerEvent: {}
+[4.652684] (-) TimerEvent: {}
+[4.753642] (-) TimerEvent: {}
+[4.854686] (-) TimerEvent: {}
+[4.955459] (-) TimerEvent: {}
+[5.056185] (-) TimerEvent: {}
+[5.157088] (-) TimerEvent: {}
+[5.258068] (-) TimerEvent: {}
+[5.359399] (-) TimerEvent: {}
+[5.384762] (thermal_sensor_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/thermal_sensor_publisher', 'build', '--build-base', '/home/group13pi/203/build/thermal_sensor_publisher/build', 'install', '--record', '/home/group13pi/203/build/thermal_sensor_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/group13pi/203/src/thermal_sensor_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group13pi', 'SSH_CLIENT': '192.168.50.67 54281 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/group13pi/203/install/rplidar_ros/lib', 'BROWSER': '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/group13pi', 'TERM_PROGRAM_VERSION': '1.87.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7cad9e01-4d2c-4673-9a53-4ba348118906.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/group13pi/203/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'group13pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/group13pi/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d573b3d2d4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/group13pi/203/install/rplidar_ros', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/group13pi/203/build/thermal_sensor_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.67 54281 192.168.50.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group13pi/203/build/thermal_sensor_publisher/prefix_override:/home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/group13pi/203/install/rplidar_ros'}, 'shell': False}
+[5.459554] (-) TimerEvent: {}
+[5.560511] (-) TimerEvent: {}
+[5.663557] (-) TimerEvent: {}
+[5.764336] (-) TimerEvent: {}
+[5.865163] (-) TimerEvent: {}
+[5.965974] (-) TimerEvent: {}
+[6.066733] (-) TimerEvent: {}
+[6.167668] (-) TimerEvent: {}
+[6.268331] (-) TimerEvent: {}
+[6.369123] (-) TimerEvent: {}
+[6.469845] (-) TimerEvent: {}
+[6.570546] (-) TimerEvent: {}
+[6.651685] (thermal_sensor_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[6.655153] (thermal_sensor_publisher) StdoutLine: {'line': b'creating ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info\n'}
+[6.656008] (thermal_sensor_publisher) StdoutLine: {'line': b'writing ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/PKG-INFO\n'}
+[6.657363] (thermal_sensor_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/dependency_links.txt\n'}
+[6.658074] (thermal_sensor_publisher) StdoutLine: {'line': b'writing entry points to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/entry_points.txt\n'}
+[6.658805] (thermal_sensor_publisher) StdoutLine: {'line': b'writing requirements to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/requires.txt\n'}
+[6.659527] (thermal_sensor_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/top_level.txt\n'}
+[6.660199] (thermal_sensor_publisher) StdoutLine: {'line': b"writing manifest file '../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/SOURCES.txt'\n"}
+[6.667314] (thermal_sensor_publisher) StdoutLine: {'line': b"reading manifest file '../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/SOURCES.txt'\n"}
+[6.670688] (-) TimerEvent: {}
+[6.671276] (thermal_sensor_publisher) StdoutLine: {'line': b"writing manifest file '../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info/SOURCES.txt'\n"}
+[6.672326] (thermal_sensor_publisher) StdoutLine: {'line': b'running build\n'}
+[6.673188] (thermal_sensor_publisher) StdoutLine: {'line': b'running build_py\n'}
+[6.673737] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/build/thermal_sensor_publisher/build\n'}
+[6.674443] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/build/thermal_sensor_publisher/build/lib\n'}
+[6.674909] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/build/thermal_sensor_publisher/build/lib/thermal_sensor_publisher\n'}
+[6.675225] (thermal_sensor_publisher) StdoutLine: {'line': b'copying thermal_sensor_publisher/__init__.py -> /home/group13pi/203/build/thermal_sensor_publisher/build/lib/thermal_sensor_publisher\n'}
+[6.675513] (thermal_sensor_publisher) StdoutLine: {'line': b'running install\n'}
+[6.676276] (thermal_sensor_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.676885] (thermal_sensor_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.678620] (thermal_sensor_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[6.683062] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher\n'}
+[6.683994] (thermal_sensor_publisher) StdoutLine: {'line': b'copying /home/group13pi/203/build/thermal_sensor_publisher/build/lib/thermal_sensor_publisher/__init__.py -> /home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher\n'}
+[6.686110] (thermal_sensor_publisher) StdoutLine: {'line': b'byte-compiling /home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[6.687498] (thermal_sensor_publisher) StdoutLine: {'line': b'running install_data\n'}
+[6.689887] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/install/thermal_sensor_publisher/share/ament_index\n'}
+[6.690705] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/install/thermal_sensor_publisher/share/ament_index/resource_index\n'}
+[6.691251] (thermal_sensor_publisher) StdoutLine: {'line': b'creating /home/group13pi/203/install/thermal_sensor_publisher/share/ament_index/resource_index/packages\n'}
+[6.691758] (thermal_sensor_publisher) StdoutLine: {'line': b'copying resource/thermal_sensor_publisher -> /home/group13pi/203/install/thermal_sensor_publisher/share/ament_index/resource_index/packages\n'}
+[6.692319] (thermal_sensor_publisher) StdoutLine: {'line': b'copying package.xml -> /home/group13pi/203/install/thermal_sensor_publisher/share/thermal_sensor_publisher\n'}
+[6.692730] (thermal_sensor_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.700094] (thermal_sensor_publisher) StdoutLine: {'line': b'Copying ../../build/thermal_sensor_publisher/thermal_sensor_publisher.egg-info to /home/group13pi/203/install/thermal_sensor_publisher/lib/python3.10/site-packages/thermal_sensor_publisher-0.0.0-py3.10.egg-info\n'}
+[6.706419] (thermal_sensor_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[6.770871] (-) TimerEvent: {}
+[6.788599] (thermal_sensor_publisher) StdoutLine: {'line': b'Installing sensor_publisher script to /home/group13pi/203/install/thermal_sensor_publisher/lib/thermal_sensor_publisher\n'}
+[6.790222] (thermal_sensor_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/group13pi/203/build/thermal_sensor_publisher/install.log'\n"}
+[6.871254] (-) TimerEvent: {}
+[6.931870] (thermal_sensor_publisher) CommandEnded: {'returncode': 0}
+[6.971458] (-) TimerEvent: {}
+[7.072776] (-) TimerEvent: {}
+[7.173838] (-) TimerEvent: {}
+[7.204453] (thermal_sensor_publisher) JobEnded: {'identifier': 'thermal_sensor_publisher', 'rc': 0}
+[7.207917] (-) EventReactorShutdown: {}

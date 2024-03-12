@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_publisher = thermal_sensor_publisher.sensor_publisher:main
+
